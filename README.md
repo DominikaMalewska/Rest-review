@@ -1,4 +1,4 @@
-# Mobile Web Specialist Certification Course
+# Front-End Nanodegree Udacity Project
 ---
 #### _Three Stage Course Material Project - Restaurant Reviews_
 
