@@ -1,7 +1,7 @@
 const cacheName = "v1";
 const cacheFiles = [
-    "index.html",
-    "restaurant.html",
+    "/index.html",
+    "/restaurant.html",
     "/css/styles.css",
     "/img/1.jpg",
     "/img/2.jpg",
@@ -15,7 +15,7 @@ const cacheFiles = [
     "/img/10.jpg",
     "/js/dbhelper.js",
     "/js/main.js",
-    "/data/restaurant.json"
+    "/data/restaurants.json"
 ];
 
 
@@ -43,7 +43,7 @@ self.addEventListener("fetch", function(e) {
    e.respondWith(
        caches.match(e.request)
         .then(function(response) {
-            return response || fetch(event.request);
+            return response || fetch(e.request);
         })
    );
 });
