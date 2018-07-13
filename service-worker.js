@@ -1,5 +1,6 @@
 const cacheName = "v1";
 const cacheFiles = [
+    "/",
     "/index.html",
     "/restaurant.html",
     "/css/styles.css",
@@ -15,6 +16,7 @@ const cacheFiles = [
     "/img/10.jpg",
     "/js/dbhelper.js",
     "/js/main.js",
+    "/js/restaurant_info.js"
     "/data/restaurants.json"
 ];
 
